@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    background-color:#445453;
+   
+    
+}
+  
+header{
+    background-color: #008216;
+ 
+    
+}
+
+    @media (max-width: 800px) {
+        header {
+          flex-direction: column;
+}
+    }
+
+img#menu {
+    margin-left: 10px;
+    
+}
+
+img#shoppingcart {
+    float: right;
+    margin-right: 5px;
+}
+
+img#profpic {
+    float: right;
+    padding-right: 5px;
+    padding-top: 2px;    
+}
+
+
+
+
+img#logo {
+    margin-left: 48.5%;
+    margin-top: -50px;
+    
+}
+
+
+
+#search {
+    display: flex;
+    justify-content: center;
+
+    }
+    ::placeholder {
+        color:red
+        }
+    
+    input {
+        background-color: #445453;
+    }
+
+
+    
+
+
