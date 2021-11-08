@@ -8,30 +8,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="css/stylesheet.css"> 
 </head>
+
 <body>
+
     <header>
-      <img src="media/menu.png"   alt="menu" id="menu"> 
-      <img src="media/profpic.png" alt="profilepicture" id="profpic">
-      <img src="media/shoppingcart.png" alt="shoppingcart" id="shoppingcart" >
+        <picture>
+          <source srcset="media/menu_mobile.png" media="(max-width: 640px)">
+          <img src="media/menu.png" alt="menu" id="menu">
+              </picture>
+
+
+        <picture>
+          <source srcset="media/profpic_mobile.png" media="(max-width: 640px)">
+          <img src="media/profpic.png" alt="profilepicture" id="profilepicture">
+               </picture>
+
+        <picture>
+          <source srcset="media/shoppingcart_mobile.png" media="(max-width: 640px)">
+          <img src="media/shoppingcart.png" alt="shoppingcart" id="shoppingcart">
+              </picture>
+
+        
+            
     </header>
 
-    <img src="media/logo.png" alt="website logo" id="logo">
-
+  
     <main>
+      <picture>
+        <source srcset="media/logo_mobile.png" media="(max-width: 640px)">
+        <img src="media/logo.png" alt="logo" id="logo">
+            </picture>
       
-      
-      <div id="search"><input type="text" placeholder="Search for products, Jackets, and more, ..." title="Type in a category">
+      <div id="search"><input type="text" placeholder="Search for games..." title="Type in a category">
 
       </div>
 
-      <a href="#buy">Buy Games</a>
-      <a href="#sell">Sell Games</a>
+      <div id="buySell">
+        <a href="#buy">Buy<br>Games</a>
+        <a href="#sell">Sell<br>Games</a>
+      </div>
+      
+     
+
+
+      <div id="featured"><h1>Today's featured games</h1>
+      
+      </div>
+
+      <div id="games">
+      <picture>
+        <source srcset="media/game1_mobile.jpg" media="(max-width: 640px)">
+        <img src="media/game1.jpg" alt="game1" id="game1">
+            </picture>
+
+      <picture>
+        <source srcset="media/game2_mobile.jpg" media="(max-width: 640px)">
+        <img src="media/game2.jpg" alt="game2" id="game2">
+            </picture>      
+      
+          </div>
 
     </main>
 
+    <footer>
+      <a href="contact">Contact</a>
+      <a href="about us">About us</a>
 
 
-
+    </footer>
 
 
 </body>

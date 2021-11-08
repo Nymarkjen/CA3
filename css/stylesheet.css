@@ -11,43 +11,35 @@ header{
     
 }
 
-    @media (max-width: 800px) {
+    @media (max-width: 640px) {
         header {
           flex-direction: column;
 }
     }
 
-img#menu {
+#menu {
     margin-left: 10px;
-    
 }
 
-img#shoppingcart {
+#shoppingcart {
     float: right;
-    margin-right: 5px;
 }
 
-img#profpic {
+#profilepicture {
     float: right;
-    padding-right: 5px;
-    padding-top: 2px;    
+    margin-right: 10px;
 }
 
-
-
-
-img#logo {
-    margin-left: 48.5%;
-    margin-top: -50px;
-    
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-
 
 #search {
-    display: flex;
-    justify-content: center;
-
+    text-align: center;
+    margin-top: 2%;
+    
     }
     ::placeholder {
         color:red
@@ -57,7 +49,31 @@ img#logo {
         background-color: #445453;
     }
 
+    #buySell {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        font-size: 25px;
+        padding-top: 3%;
+        font-weight: bold;
+        
+    }
 
+     #featured{
+        text-align: center;
+        margin-top: 7%;
+        font-weight: bold;
+
+    }
+
+    #games {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        font-size: 25px;
+        padding-top: 7%;
+        
+    } 
+
+   
     
-
-
